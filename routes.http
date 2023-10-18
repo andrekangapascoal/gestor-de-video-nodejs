@@ -1,0 +1,31 @@
+
+
+
+POST http://localhost:3333/videos 
+Content-Type: application/json
+
+{
+    "title": "Kuenda video",
+    "description": "Esse é o primeiro video",
+    "duration": 180
+}
+
+
+
+###
+GET  http://localhost:3333/videos
+###
+
+
+PUT  http://localhost:3333/videos/6126d510-00b2-4251-ae3f-09d57f2344af
+Content-Type: application/json
+
+{
+    "title": "Atualizei Kuenda",
+    "description": "Bla bla bal",
+    "duration": 180
+}
+
+###
+
+DELETE http://localhost:3333/videos/f987f974-dad5-43c7-8550-20af0ce90214
